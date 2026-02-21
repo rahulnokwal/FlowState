@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav
-      class="sticky top-0 z-10 w-full bg-white/80 border-b border-slate-200 backdrop-blur-md"
+      class="sticky top-0 z-100 w-full bg-white/80 border-b border-slate-200 backdrop-blur-md"
     >
       <div
         class="mx-auto max-w-7xl h-16 flex justify-between items-center px-4"
@@ -53,7 +53,7 @@
     </nav>
     <div
       data-mobile-menu
-      class="fixed z-100 inset-0 bg-white opacity-0 pointer-events-none transition-all duration-300"
+      class="fixed z-100 inset-0 bg-white opacity-0 pointer-events-none transition-all duration-300 overflow-hidden"
     >
       <div class="h-full flex flex-col p-4">
         <button data-mobile-close class="self-end p-2 -mr-2">
@@ -156,6 +156,110 @@
             >
               Watch Demo
             </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-slate-50">
+      <div class="max-w-7xl m-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-sm text-blue-600 text-center uppercase font-bold tracking-widest mb-8"
+        >
+          Features
+        </h2>
+        <p
+          class="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight max-w-3xl m-auto text-center mb-16"
+        >
+          Everything you need to reach your peak productivity.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div
+            class="group bg-white p-4 rounded-2xl border border-slate-100 hover:shadow-2xl hover:shadow-blue-200 hover:scale-[1.01] transition-all duration-300"
+          >
+            <div
+              class="h-12 w-12 bg-blue-600 text-white rounded-xl flex justify-center items-center mb-6 group-hover:rotate-6 transition-transform"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-bold text-xl text-slate-900 mb-4">
+              AI Focus Timer
+            </h3>
+            <p class="text-slate-600 leading-relaxed">
+              FlowState automatically adjusts your break times based on your
+              past performance and mental fatigue levels.
+            </p>
+          </div>
+          <div
+            class="group bg-white p-4 rounded-2xl border border-slate-100 hover:shadow-2xl hover:shadow-blue-200 hover:scale-[1.01] transition-all duration-300"
+          >
+            <div
+              class="h-12 w-12 bg-indigo-600 text-white rounded-xl flex justify-center items-center mb-6 group-hover:rotate-6 transition-transform"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728L5.636 5.636"
+                />
+              </svg>
+            </div>
+            <h3 class="font-bold text-xl text-slate-900 mb-4">
+              Distraction Blocker
+            </h3>
+            <p class="text-slate-600 leading-relaxed">
+              Syncs with your browser and phone to silence all notifications and
+              block social media when you're in the zone.
+            </p>
+          </div>
+          <div
+            class="group bg-white p-4 rounded-2xl border border-slate-100 hover:shadow-2xl hover:shadow-blue-200 hover:scale-[1.01] transition-all duration-300"
+          >
+            <div
+              class="h-12 w-12 bg-purple-600 text-white rounded-xl flex justify-center items-center mb-6 group-hover:rotate-6 transition-transform"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-bold text-xl text-slate-900 mb-4">
+              Deep Work Analytics
+            </h3>
+            <p class="text-slate-600 leading-relaxed">
+              See exactly how many hours of deep work you're getting and how to
+              optimize your team's schedule.
+            </p>
           </div>
         </div>
       </div>
