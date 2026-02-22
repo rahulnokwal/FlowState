@@ -1,16 +1,11 @@
 {
  "name": "flowstate",
-  "version": "1.0.0",
-  "dependencies": {
-    "tailwindcss": "^3.4.1",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35"
+ "version": "1.0.0",
+ "dependencies": {
+    "@tailwindcss/cli": "^4.0.0" 
   },
-  "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/style.css --minify",
-    "dev": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch"
+ "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/style.css"
   },
-  "type": "commonjs"
+ "type": "commonjs"
 }
-
-
