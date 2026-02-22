@@ -7,12 +7,9 @@
     "postcss": "^8.4.35"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
-    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/style.css --minify",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs"
 }
 
