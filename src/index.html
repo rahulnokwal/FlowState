@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,11 +22,15 @@
         <div
           class="hidden md:flex items-center space-x-8 text-sm text-slate-600 font-medium"
         >
-          <a href="#" class="hover:text-blue-600 transition-colors">Product</a>
-          <a href="#" class="hover:text-blue-600 transition-colors"
+          <a href="#product" class="hover:text-blue-600 transition-colors"
+            >Product</a
+          >
+          <a href="#features" class="hover:text-blue-600 transition-colors"
             >Solutions</a
           >
-          <a href="#" class="hover:text-blue-600 transition-colors">Pricing</a>
+          <a href="#pricing" class="hover:text-blue-600 transition-colors"
+            >Pricing</a
+          >
           <button
             class="bg-blue-600 text-white px-5 py-2 rounded-full shadow-sm shadow-blue-200 hover:bg-blue-700 transition-all"
           >
@@ -88,6 +92,7 @@
       </div>
     </div>
     <section
+      id="product"
       class="bg-white pt-20 pb-16 lg:pt-32 lg:pb-24 overflow-hidden relative"
     >
       <div class="h-full w-full absolute top-0 z-0 pointer-events-none">
@@ -160,10 +165,10 @@
         </div>
       </div>
     </section>
-    <section class="py-24 bg-slate-50">
-      <div class="max-w-7xl m-auto px-4 sm:px-6 lg:px-8">
+    <section id="features" class="py-4 sm:py-24 bg-slate-50">
+      <div class="max-w-7xl m-auto px-4 sm:px-6 lg:px-8 md:pb-24">
         <h2
-          class="text-sm text-blue-600 text-center uppercase font-bold tracking-widest mb-4"
+          class="text-blue-600 text-center uppercase font-bold tracking-widest mb-4"
         >
           Features
         </h2>
@@ -264,7 +269,7 @@
         </div>
       </div>
     </section>
-    <section class="py-24 bg-slate-50">
+    <section id="pricing" class="py-4 sm:py-24 bg-slate-50">
       <div class="max-w-7xl m-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl m-auto mb-20">
           <h2
@@ -528,12 +533,14 @@
             <h1 class="text-white font-bold mb-6">Product</h1>
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="hover:text-blue-400 transition-colors"
+                <a
+                  href="#features"
+                  class="hover:text-blue-400 transition-colors"
                   >Features</a
                 >
               </li>
               <li>
-                <a href="#" class="hover:text-blue-400 transition-colors"
+                <a href="#pricing" class="hover:text-blue-400 transition-colors"
                   >Pricing</a
                 >
               </li>
